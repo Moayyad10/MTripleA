@@ -116,10 +116,11 @@ border-radius: 50px;
 
 }
 .card-info img{
-  width: 35px;
+  width: 50px;
 }
 
 .card .thumb{
   border-radius: 20px 20px 0 0 ;
+  width: 100%;
 
 }
