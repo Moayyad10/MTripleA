@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  height: 50px;
   padding: 10px;
 }
 
@@ -23,6 +23,10 @@ body {
   border: none;
 }
 
+.btn:hover {
+  background-color: #f2858c;
+}
+
 .header-links a {
   color: white;
   padding: 5px 25px;
@@ -32,18 +36,19 @@ body {
 .header-links a:hover {
   background-color: #79c3c2;
 }
- 
-.header-links button:hover {
-  background-color: #f2858c;
-}
-
 .landing-page{
     background-color: #52616b;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 25px 50px;
     color:#ffffff;
+    border-radius: 0 0 50px 50px;
+    
+}
+
+.landing-page-left-section{
+  width: 500px ;
 }
 
 .landing-page-search input{
@@ -51,14 +56,70 @@ body {
   border: none;
   outline: none;
   height: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 
 .landing-page-search button{
  position: absolute;
  left: 200px;
+ height: 30px;
+
+}
+.landing-page-image-container img{
+
+  border-radius: 20px;
+  width: 250px;
+  
 
 }
 
+.trending-container{
+  padding: 25px 50px;
 
+}
+
+.trending-container span{
+  color: #f2858c;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+ 
+}
+
+.trending-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending-header h1{
+  margin-top: 0px;
+}
+
+.trending-cards{
+
+  display: flex;
+  gap: 12px;
+}
+.card{
+width: 500px ;
+background-color: #eeeeee;
+border-radius: 50px;
+}
+
+
+.card-info{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 20px;
+
+}
+.card-info img{
+  width: 35px;
+}
+
+.card .thumb{
+  border-radius: 20px 20px 0 0 ;
+
+}
